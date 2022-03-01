@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/liuleill/Liulei-UI-Components-wheels/issues"
   },
-  "homepage": "https://github.com/liuleill/Liulei-UI-Components-wheels#readme"
+  "homepage": "https://github.com/liuleill/Liulei-UI-Components-wheels#readme",
+  "dependencies": {
+    "vue": "^3.2.31"
+  }
 }
