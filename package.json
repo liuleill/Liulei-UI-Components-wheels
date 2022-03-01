@@ -1,0 +1,23 @@
+{
+  "name": "ui-wheels",
+  "version": "0.0.1",
+  "description": "一个刘磊手写的UI框架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuleill/Liulei-UI-Components-wheels.git"
+  },
+  "keywords": [
+    "vue",
+    "ui"
+  ],
+  "author": "liulei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liuleill/Liulei-UI-Components-wheels/issues"
+  },
+  "homepage": "https://github.com/liuleill/Liulei-UI-Components-wheels#readme"
+}
