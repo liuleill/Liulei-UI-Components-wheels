@@ -3,3 +3,12 @@
 作者：刘磊，又名梧桐呓语
 
 时间：2022年2月28日
+
+## 安装
+使用本框架之前，请在CSS中开启border-box
+
+```angular2html
+*{
+box-sizing:border-box;margin:0;padding:0;
+}
+```
