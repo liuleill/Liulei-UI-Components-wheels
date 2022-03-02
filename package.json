@@ -1,5 +1,5 @@
 {
-  "name": "ui-wheels",
+  "name": "liulei-ui",
   "version": "0.0.1",
   "description": "一个刘磊手写的UI框架",
   "main": "index.js",
@@ -21,9 +21,15 @@
   },
   "homepage": "https://github.com/liuleill/Liulei-UI-Components-wheels#readme",
   "dependencies": {
-    "vue": "^3.2.31"
+    "vue": "^2.6.14"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+    "@vue/component-compiler-utils": "^3.3.0",
+    "node-sass": "^7.0.1",
+    "parcel-bundler": "^1.9.2",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "alias": {
+    "vue" : "./node_modules/vue/dist/vue.common.js"
   }
 }
