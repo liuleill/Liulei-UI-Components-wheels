@@ -5,7 +5,14 @@
 时间：2022年2月28日
 
 ## 安装
+
 使用本框架之前，请在CSS中开启border-box
+
+运行：
+
+`
+npx  parcel index.html
+`
 
 ```angular2html
 *{

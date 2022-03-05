@@ -1,1 +1,293 @@
-{"dependencies":[{"name":"D:\\jirengu\\UI-Wheels\\package.json","includedInParent":true,"mtime":1646401246574},{"name":"vue","loc":{"line":1,"column":16},"parent":"D:\\jirengu\\UI-Wheels\\src\\app.js","resolved":"D:\\jirengu\\UI-Wheels\\node_modules\\vue\\dist\\vue.common.js"},{"name":"./button","loc":{"line":2,"column":19},"parent":"D:\\jirengu\\UI-Wheels\\src\\app.js","resolved":"D:\\jirengu\\UI-Wheels\\src\\button.vue"}],"generated":{"js":"'use strict';\n\nvar _vue = require('vue');\n\nvar _vue2 = _interopRequireDefault(_vue);\n\nvar _button = require('./button');\n\nvar _button2 = _interopRequireDefault(_button);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n_vue2.default.component('g-button', _button2.default);\n\nnew _vue2.default({\n    el: '#app'\n});","map":{"mappings":[{"generated":{"line":3,"column":0},"source":"src\\app.js","original":{"line":1,"column":0}},{"generated":{"line":7,"column":0},"source":"src\\app.js","original":{"line":2,"column":0}},{"name":"Vue","generated":{"line":13,"column":0},"source":"src\\app.js","original":{"line":4,"column":0}},{"name":"component","generated":{"line":13,"column":14},"source":"src\\app.js","original":{"line":4,"column":4}},{"generated":{"line":13,"column":23},"source":"src\\app.js","original":{"line":4,"column":0}},{"generated":{"line":13,"column":24},"source":"src\\app.js","original":{"line":4,"column":14}},{"generated":{"line":13,"column":34},"source":"src\\app.js","original":{"line":4,"column":0}},{"name":"Button","generated":{"line":13,"column":36},"source":"src\\app.js","original":{"line":4,"column":25}},{"generated":{"line":13,"column":52},"source":"src\\app.js","original":{"line":4,"column":0}},{"generated":{"line":15,"column":0},"source":"src\\app.js","original":{"line":6,"column":0}},{"name":"Vue","generated":{"line":15,"column":4},"source":"src\\app.js","original":{"line":6,"column":4}},{"generated":{"line":15,"column":17},"source":"src\\app.js","original":{"line":6,"column":0}},{"generated":{"line":15,"column":18},"source":"src\\app.js","original":{"line":6,"column":8}},{"name":"el","generated":{"line":16,"column":0},"source":"src\\app.js","original":{"line":7,"column":4}},{"generated":{"line":16,"column":8},"source":"src\\app.js","original":{"line":7,"column":7}},{"generated":{"line":17,"column":0},"source":"src\\app.js","original":{"line":6,"column":8}},{"generated":{"line":17,"column":1},"source":"src\\app.js","original":{"line":6,"column":0}}],"sources":{"src\\app.js":"import Vue from 'vue'\r\nimport Button from './button'\r\n\r\nVue.component('g-button',Button)\r\n\r\nnew Vue({\r\n    el:'#app'\r\n})\r\n"},"lineCount":null}},"hash":"c197e4abfc9499ce442cd14a1b8a1dd0","cacheData":{"env":{}},"id":4}
+{
+  "dependencies": [
+    {
+      "name": "D:\\jirengu\\UI-Wheels\\package.json",
+      "includedInParent": true,
+      "mtime": 1646401246574
+    },
+    {
+      "name": "vue",
+      "loc": {
+        "line": 1,
+        "column": 16
+      },
+      "parent": "D:\\jirengu\\UI-Wheels\\src\\app.js",
+      "resolved": "D:\\jirengu\\UI-Wheels\\node_modules\\vue\\dist\\vue.common.js"
+    },
+    {
+      "name": "./button",
+      "loc": {
+        "line": 2,
+        "column": 19
+      },
+      "parent": "D:\\jirengu\\UI-Wheels\\src\\app.js",
+      "resolved": "D:\\jirengu\\UI-Wheels\\src\\button.vue"
+    }
+  ],
+  "generated": {
+    "js": "'use strict';\n\nvar _vue = require('vue');\n\nvar _vue2 = _interopRequireDefault(_vue);\n\nvar _button = require('./button');\n\nvar _button2 = _interopRequireDefault(_button);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nconsole.log(_button2.default);\n_vue2.default.component('g-button', _button2.default);\n\nnew _vue2.default({\n    el: '#app'\n});",
+    "map": {
+      "mappings": [
+        {
+          "generated": {
+            "line": 3,
+            "column": 0
+          },
+          "source": "src\\app.js",
+          "original": {
+            "line": 1,
+            "column": 0
+          }
+        },
+        {
+          "generated": {
+            "line": 7,
+            "column": 0
+          },
+          "source": "src\\app.js",
+          "original": {
+            "line": 2,
+            "column": 0
+          }
+        },
+        {
+          "name": "console",
+          "generated": {
+            "line": 13,
+            "column": 0
+          },
+          "source": "src\\app.js",
+          "original": {
+            "line": 4,
+            "column": 0
+          }
+        },
+        {
+          "name": "log",
+          "generated": {
+            "line": 13,
+            "column": 8
+          },
+          "source": "src\\app.js",
+          "original": {
+            "line": 4,
+            "column": 8
+          }
+        },
+        {
+          "generated": {
+            "line": 13,
+            "column": 11
+          },
+          "source": "src\\app.js",
+          "original": {
+            "line": 4,
+            "column": 0
+          }
+        },
+        {
+          "name": "Button",
+          "generated": {
+            "line": 13,
+            "column": 12
+          },
+          "source": "src\\app.js",
+          "original": {
+            "line": 4,
+            "column": 12
+          }
+        },
+        {
+          "generated": {
+            "line": 13,
+            "column": 28
+          },
+          "source": "src\\app.js",
+          "original": {
+            "line": 4,
+            "column": 0
+          }
+        },
+        {
+          "name": "Vue",
+          "generated": {
+            "line": 14,
+            "column": 0
+          },
+          "source": "src\\app.js",
+          "original": {
+            "line": 5,
+            "column": 0
+          }
+        },
+        {
+          "name": "component",
+          "generated": {
+            "line": 14,
+            "column": 14
+          },
+          "source": "src\\app.js",
+          "original": {
+            "line": 5,
+            "column": 4
+          }
+        },
+        {
+          "generated": {
+            "line": 14,
+            "column": 23
+          },
+          "source": "src\\app.js",
+          "original": {
+            "line": 5,
+            "column": 0
+          }
+        },
+        {
+          "generated": {
+            "line": 14,
+            "column": 24
+          },
+          "source": "src\\app.js",
+          "original": {
+            "line": 5,
+            "column": 14
+          }
+        },
+        {
+          "generated": {
+            "line": 14,
+            "column": 34
+          },
+          "source": "src\\app.js",
+          "original": {
+            "line": 5,
+            "column": 0
+          }
+        },
+        {
+          "name": "Button",
+          "generated": {
+            "line": 14,
+            "column": 36
+          },
+          "source": "src\\app.js",
+          "original": {
+            "line": 5,
+            "column": 25
+          }
+        },
+        {
+          "generated": {
+            "line": 14,
+            "column": 52
+          },
+          "source": "src\\app.js",
+          "original": {
+            "line": 5,
+            "column": 0
+          }
+        },
+        {
+          "generated": {
+            "line": 16,
+            "column": 0
+          },
+          "source": "src\\app.js",
+          "original": {
+            "line": 7,
+            "column": 0
+          }
+        },
+        {
+          "name": "Vue",
+          "generated": {
+            "line": 16,
+            "column": 4
+          },
+          "source": "src\\app.js",
+          "original": {
+            "line": 7,
+            "column": 4
+          }
+        },
+        {
+          "generated": {
+            "line": 16,
+            "column": 17
+          },
+          "source": "src\\app.js",
+          "original": {
+            "line": 7,
+            "column": 0
+          }
+        },
+        {
+          "generated": {
+            "line": 16,
+            "column": 18
+          },
+          "source": "src\\app.js",
+          "original": {
+            "line": 7,
+            "column": 8
+          }
+        },
+        {
+          "name": "el",
+          "generated": {
+            "line": 17,
+            "column": 0
+          },
+          "source": "src\\app.js",
+          "original": {
+            "line": 8,
+            "column": 4
+          }
+        },
+        {
+          "generated": {
+            "line": 17,
+            "column": 8
+          },
+          "source": "src\\app.js",
+          "original": {
+            "line": 8,
+            "column": 7
+          }
+        },
+        {
+          "generated": {
+            "line": 18,
+            "column": 0
+          },
+          "source": "src\\app.js",
+          "original": {
+            "line": 7,
+            "column": 8
+          }
+        },
+        {
+          "generated": {
+            "line": 18,
+            "column": 1
+          },
+          "source": "src\\app.js",
+          "original": {
+            "line": 7,
+            "column": 0
+          }
+        }
+      ],
+      "sources": {
+        "src\\app.js": "import Vue from 'vue'\r\nimport Button from './button'\r\n\r\nconsole.log(Button);\r\nVue.component('g-button',Button)\r\n\r\nnew Vue({\r\n    el:'#app'\r\n})\r\n"
+      },
+      "lineCount": null
+    }
+  },
+  "hash": "84a01cfff76548030e6eab9def27ed01",
+  "cacheData": {
+    "env": {}
+  },
+  "id": 4
+}
