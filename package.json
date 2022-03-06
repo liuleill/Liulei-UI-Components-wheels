@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/liuleill/Liulei-UI-Components-wheels#readme",
   "dependencies": {
+    "-": "^0.0.1",
+    "D": "npm:d@^1.0.1",
     "node": "^16.13.2",
     "node-sass": "^7.0.1",
     "vue": "^2.6.14"
