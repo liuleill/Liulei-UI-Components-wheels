@@ -1,7 +1,8 @@
 <template>
-  <button class="g-button" :class="{[`icon-${iconPosition}`]:true}">
-    <g-icon name="loading" class="loading"></g-icon>
-    <g-icon class="icon" v-if="icon" :name="icon"></g-icon>
+  <button class="g-button" :class="{[`icon-${iconPosition}`]:true}"
+          @click="$emit('click')">
+    <g-icon name="loading" class="loading icon" v-if="loading"></g-icon>
+    <g-icon class="icon" v-if="icon && !loading" :name="icon"></g-icon>
     <div class="content">
       <slot></slot>
     </div>
@@ -12,6 +13,10 @@ export default {
   // props: ['icon', 'iconPosition'] //iconPosition的位置left，right即icon位置在左边还是右边
   props: {
     icon: {},
+    loading: {
+      type: Boolean,
+      default: false
+    },
     iconPosition: {
       type: String,
       default: 'left',
@@ -19,7 +24,11 @@ export default {
         return value === 'left' || value === 'right';
       }
     }
-  }
+  },
+  data: {
+    loading1: false
+  },
+  methods: {}
 }
 </script>
 <style lang="scss">
@@ -74,7 +83,6 @@ export default {
       margin-left: 0.3em;
     }
   }
-
   .loading {
     animation: spin 2s infinite;
   }

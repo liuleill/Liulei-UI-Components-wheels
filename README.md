@@ -11,11 +11,11 @@
 运行：
 
 `
-npx  parcel index.html
+npx  parcel index.html --no-cache
 `
 
 ```angular2html
-*{
+* {
 box-sizing:border-box;margin:0;padding:0;
 }
 ```
