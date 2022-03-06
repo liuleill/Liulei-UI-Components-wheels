@@ -31,21 +31,31 @@
             font-size: var(--font-size);
         }
     </style>
-    <style>
-        .icon {
-            width: 1em;
-            height: 1em;
-        }
-    </style>
-    <link rel="stylesheet" href="/app.2573fc39.css">
-</head>
+<link rel="stylesheet" href="/app.2573fc39.css"></head>
 <body>
 <div id="app">
-    <g-button>按钮</g-button>
-    <g-button icon="settings">按钮</g-button>
-    <g-button icon="settings" icon-position="right">按钮</g-button>
+    <g-button :loading="loading1" @click="loading1 = !loading1">
+        按钮
+    </g-button>
+    <g-button icon="settings" :loading="loading2" @click="loading2 = !loading2">
+        按钮
+    </g-button>
+    <g-button icon="settings" icon-position="right" :loading="loading3" @click="loading3 = !loading3">
+        按钮
+    </g-button>
+    <g-button-group>
+        <g-button icon="left">
+            上一页
+        </g-button>
+        <g-button>更多</g-button>
+        <g-button icon="right" icon-position="right">
+            下一页
+        </g-button>
+    </g-button-group>
+
+
 </div>
 <script src="/app.2573fc39.js"></script>
-<script src="//at.alicdn.com/t/font_3223175_z9whx03qzxl.js"></script>
+<script src="//at.alicdn.com/t/font_3223175_ptwkklqpje.js"></script>
 </body>
 </html>
