@@ -9,6 +9,9 @@
   </button>
 </template>
 <script>
+import Vue from 'vue'
+import Icon from './icon'
+Vue.component('g-icon',Icon)
 export default {
   // props: ['icon', 'iconPosition'] //iconPosition的位置left，right即icon位置在左边还是右边
   props: {
