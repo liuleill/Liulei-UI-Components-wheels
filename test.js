@@ -1,15 +1,14 @@
 const puppeteer = require('puppeteer');
-const p = require('path')
-var static = require('path')
-var file = require('node-static')
+const p = require('path');
+var static = require('node-static');
+var file = new static.Server('./dist');
 var port = process.env.PORT || 8080
 
-var server = require("http").createServer(function(request,response){
-    request.addListener('end',function(){
-        file.serve(request,response);
-    }).resume();
+var server = require('http').createServer(function (request, response) {
+  request.addListener('end', function () {
+    file.serve(request, response);
+  }).resume();
 })
-
 
 !(async () => {
   server.listen(port);
@@ -27,18 +26,20 @@ var server = require("http").createServer(function(request,response){
     const errors = await page.evaluate(() => {
       return window.errors || []
     })
-    if (errors === undefined) {
-      console.info('没有找到测试用例')
-    } else if(errors.length === 0){
-        console.log('没有错误')
-    }else{
+    if(errors === undefined){
+      console.log('没要找到测试用例')
+    }else if (errors.length === 0) {
+      console.info('没有错误')
+    } else {
       console.error('有错误')
       errors.forEach((error) => {
         console.log(error.message)
       })
     }
     await browser.close()
-    server.close();
+    server.close()
   });
+
   await page.goto(`http://127.0.0.1:${port}`)
-})() 
+
+})()
